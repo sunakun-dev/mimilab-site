@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+  background: #fff7fb;
+  color: #5a3d46;
+}
+
+.hero {
+  min-height: 80vh;
+  background: linear-gradient(135deg, #ffe3ee, #fff7fb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-text {
+  max-width: 720px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 32px;
+  box-shadow: 0 20px 50px rgba(214, 130, 160, 0.2);
+}
+
+.label {
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  color: #d989a6;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #c96f91;
+}
+
+.message {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: #e995b5;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #c96f91;
+  font-size: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 24px;
+  box-shadow: 0 12px 30px rgba(214, 130, 160, 0.15);
+}
+
+.card h3 {
+  color: #c96f91;
+}
+
+footer {
+  text-align: center;
+  padding: 32px;
+  color: #9b7884;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.hero-image {
+  width: 90%;
+  max-width: 760px;
+  border-radius: 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 20px 50px rgba(214, 130, 160, 0.25);
+}
+
+.hero {
+  flex-direction: column;
+}
