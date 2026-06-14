@@ -24,8 +24,4 @@ This project is part of my web development practice and portfolio.
 
 ## Live Site
 
-This site is published with GitHub Pages.
-
-## Live Site
-
 https://sunakun-dev.github.io/mimilab-site/
